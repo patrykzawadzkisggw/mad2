@@ -8533,7 +8533,7 @@ Wynik klasyfikacji dla danych testowych count:  0.9925219185146983
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="Decision-tree%5B9%5D">Decision tree<sup>[9]</sup><a class="anchor-link" href="#Decision-tree%5B9%5D">¶</a></h1><h2 id="Opis">Opis<a class="anchor-link" href="#Opis">¶</a></h2><p>Drzewo decyzyjne (Decision tree) jest metodą klasyfikacji w analizie danych, polegającą na budowaniu drzewa podczas fazy treningowej. Dane są reprezentowane w hierarchii, gdzie każdy wewnętrzny wierzchołek (niebędący liściem) jest oznaczony cechą wejściową. Klasyfikacja danego rekordu polega na przejściu po tym drzewie od korzenia do liści (reprezentujących klasę), po drodze sprawdzając warunki z cech danego rekordu (są to krawędzie drzewa).</p>
 <p>Utworzony model może być użyty do wizualnego i jawnego przedstawienia decyzji. Przykład używany przez bank do określania zdolności kredytowej:
-<img alt="alt text" src="images/z1.png" title="opcjonalny tytuł">
+<img alt="przyklad" src="z1.png" title="przyklad">
 Przewidywanie zaczyna się od korzenia i po sprawdzeniu wartości na krawędziach, kierujemy się odpowiadającą gałęzią do następnego wierzchołka.</img></p>
 <p>Nie istnieje uniwersalna technika kontrakcji drzewa decyzyjnego. Na przestrzeni lat w literaturze zaproponowano wiele różnych metod. Opiszemy metodę użytą domyślnie przez scikit-learn - algorytm CART.</p>
 <blockquote>
